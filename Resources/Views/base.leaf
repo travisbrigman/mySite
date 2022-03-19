@@ -7,75 +7,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 </head>
 <body>
-<section class="hero is-primary is-medium">
-  <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
-  <div class="is-flex is-flex-direction-row is-justify-content-space-between">
-    <img class="py-1" src="/images/MacClassic.svg" alt="Logo" width="100" height="auto">
-    <nav class="container navbar is-flex is-align-items-start is-justify-content-flex-end">
-      <div class="container">
-        <div class="navbar-brand">
-          
-          <span class="navbar-burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item is-active">
-              About Me
-            </a>
-            <a class="navbar-item">
-              Projects
-            </a>
-            <a class="navbar-item">
-              Testimonials
-            </a>
-            <span class="navbar-item">
-              <a class="button is-primary is-inverted">
-                <span class="icon has-text-success">
-                  <ion-icon class="ion-ionic" name="document-text"></ion-icon>
-                </span>
-                <span>Download Resume</span>
-              </a>
-            </span>
-          </div>
-        </div>
-      </div>
-    </nav>
-    </div>
-  </div>
-
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
-    <div class="container has-text-centered">
-      <p class="title">
-        Travis Brigman
-      </p>
-      <p class="subtitle">
-        Software Developer
-      </p>
-    </div>
-  </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <div class="hero-foot">
-    <nav class="tabs">
-      <div class="container">
-        <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
-          <li><a>Grid</a></li>
-          <li><a>Elements</a></li>
-          <li><a>Components</a></li>
-          <li><a>Layout</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div>
-</section>
+<!-- HEADER-->
+#extend("partials/header")
 #import("content")
 <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>

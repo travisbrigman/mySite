@@ -1,5 +1,10 @@
 #extend("base"):
-#export("content"):
-   <h1>This is a Test</h1>
+   #export("content"):
+      <div class="columns is-centered">
+         <div class="column is-10">
+            <h1 class="title is-1">About Me</h1>
+            <section>I grew up outside of Atlanta, GA and moved to Nashville to work in recording studios. I did that for a few years and it was a lot of fun. I worked on some cool records and made a lot of great friends. For a lot of reasons I transitioned into AVL systems integration. I helped design and install sound systems, broadcast video systems, room control systems and theatrical lighting systems. Clients ranged from a tiny church in the middle of Indiana corn fields to the Grand Ole Opry House. I learned a ton about process, communication and how teams interact. It was during this time that I got my CSM I Scrum Master Certification. I am now starting a new chapter in my professional career as a software developer. It's a job that I thought I could never have because I didn't go to MIT or build my first computer when I was 3. But over time I realized that development is primarily about solving problems and my time in studios and integration taught me loads about problem solving. I am extremely excited to synthesize my years of experience in other domains with my developing talents in programming.</section>
+         </div>
+      </div>
    #endexport
 #endextend
