@@ -37,7 +37,8 @@ struct MainController: RouteCollection {
         ]
 
         let context = ProjectsLoopsContext(
-            title: "Projects",
+            title: "Travis Brigman",
+            sectionTitle: "Projects",
             description: "Example Projects I've Worked On",
             cards: cards
         )

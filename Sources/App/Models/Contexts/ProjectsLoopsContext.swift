@@ -8,6 +8,7 @@
 import Foundation
 struct ProjectsLoopsContext: Encodable {
     let title: String
+    let sectionTitle: String
     let description: String
     let cards: [Card]
 }
