@@ -1,3 +1,4 @@
+/*
 import Fluent
 
 struct CreateTodo: AsyncMigration {
@@ -12,3 +13,4 @@ struct CreateTodo: AsyncMigration {
         try await database.schema("todos").delete()
     }
 }
+*/
