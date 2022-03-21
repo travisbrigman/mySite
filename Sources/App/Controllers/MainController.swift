@@ -10,29 +10,20 @@ struct MainController: RouteCollection {
     func projects(req: Request) async throws -> View {
         let cards = [
             Card(
-                title: "Cloud",
-                description: "Since Vapor run in docker, it can be easily deployed to any cloud hosting."
+                title: "Rare",
+                description: "A blogging platform project similar to Medium"
             ),
             Card(
-                title: "SSL Certificates",
-                description: "It's a piece of cake easy to setup TLS support. Let's encrypt provides free certificates."
-
+                title: "Personal Site",
+                description: "The page you are viewing now is built with Vapor and Bulma"
             ),
             Card(
-                title: "Testing",
-                description: "It's a good practice to automate repetitive tasks. Unit tests are good starting point."
+                title: "HCA Healthcare's UXCoE",
+                description: "The User Experience Center of Excellence wanted a custom page not hosted on a rigid CMS."
             ),
             Card(
-                title: "Security",
-                description: "Ever heard about Vapor Secure Headers package? Check GitHub or Vapor discord forum."
-            ),
-            Card(
-                title: "Powerful API",
-                description: "Building APIs is the field where Vapor really shines. Build fully functional API within minutes."
-            ),
-            Card(
-                title: "Databases",
-                description: "There is an ORM called Fluent. It provides drivers for Postgres, MySQL, SQLite and MongoDB."
+                title: "Seat Geek",
+                description: "This started off as a code challenge but I am proud of the results."
             )
         ]
 

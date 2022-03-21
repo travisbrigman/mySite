@@ -11,7 +11,7 @@
             <div class="columns is-flex is-flex-wrap-wrap">
                #if(cards):
                   #for(card in cards):
-                  <div class="column is-4">
+                  <div class="column is-4 is-flex is-align-items-stretch">
                   <!-- Use card.leaf template for rendering reusable component -->
                      #extend("partials/card"):
                         #export("cardTitle", card.title)
