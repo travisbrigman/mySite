@@ -1,0 +1,44 @@
+<section class="hero is-primary is-medium">
+  <!-- Hero head: will stick at the top -->
+  <div class="hero-head">
+  <div class="is-flex is-flex-direction-row is-justify-content-space-between">
+    <nav class="container navbar is-flex is-align-items-start is-justify-content-flex-end">
+      <div class="container">
+        <div class="navbar-brand">
+          <span class="navbar-burger" data-target="navbarMenuHeroA">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </div>
+        <div id="navbarMenuHeroA" class="navbar-menu">
+          <div class="navbar-end">
+            <a class="navbar-item is-active">
+              About Me
+            </a>
+            <a class="navbar-item">
+              Projects
+            </a>
+            <a class="navbar-item">
+              Testimonials
+            </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </nav>
+    </div>
+  </div>
+
+  <!-- Hero content: will be to the right -->
+  <div class="hero-body">
+    <div class="container has-text-right">
+      <p class="title is-1">
+        Travis Brigman
+      </p>
+      <p class="subtitle">
+        Software Developer
+      </p>
+    </div>
+  </div>
+</section>
