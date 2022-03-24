@@ -16,6 +16,8 @@
                      #extend("partials/card"):
                         #export("cardTitle", card.title)
                         #export("cardDescription", card.description)
+                        #export("imagePath", card.imagePath)
+                        #export("icon", card.icon)
                      #endextend
                      </div>
                   #endfor

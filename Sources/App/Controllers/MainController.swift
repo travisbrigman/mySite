@@ -11,19 +11,29 @@ struct MainController: RouteCollection {
         let cards = [
             Card(
                 title: "Rare",
-                description: "A blogging platform project similar to Medium"
+                description: "A blogging platform project similar to Medium",
+                imagePath: "/images/portfolio/Rare.jpg",
+                icon: "fa-solid fa-droplet"
             ),
             Card(
                 title: "Personal Site",
-                description: "The page you are viewing now is built with Vapor and Bulma"
+                description: "The page you are viewing now is built with Vapor and Bulma",
+                imagePath: nil,
+                icon: "fa-solid fa-droplet"
+                
             ),
             Card(
                 title: "HCA Healthcare's UXCoE",
-                description: "The User Experience Center of Excellence wanted a custom page not hosted on a rigid CMS."
+                description: "The User Experience Center of Excellence wanted a custom page not hosted on a rigid CMS.",
+                imagePath: nil,
+                icon: "fa-brands fa-react"
+                
             ),
             Card(
                 title: "Seat Geek",
-                description: "This started off as a code challenge but I am proud of the results."
+                description: "This started off as a code challenge but I am proud of the results.",
+                imagePath: "/images/portfolio/FetchNow.jpg",
+                icon: "fa-brands fa-swift"
             )
         ]
 
