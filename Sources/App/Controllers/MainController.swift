@@ -45,5 +45,11 @@ struct MainController: RouteCollection {
         )
         return try await req.view.render("index", context)
     }
+    
+    func projectDetail(req: Request) async throws -> View {
+        
+        
+        return try await req.view.render("project-detail", context)
+    }
 }
 
