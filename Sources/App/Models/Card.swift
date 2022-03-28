@@ -7,4 +7,5 @@ struct Card: Encodable {
     let description: String
     let imagePath: String?
     let icon: String?
+    let linkRoute: String?
 }

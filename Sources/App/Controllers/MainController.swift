@@ -14,27 +14,31 @@ struct MainController: RouteCollection {
                 title: "Rare",
                 description: "A blogging platform project similar to Medium",
                 imagePath: "/images/portfolio/Rare.jpg",
-                icon: "fa-solid fa-droplet"
+                icon: "fa-solid fa-droplet",
+                linkRoute: "rare"
             ),
             Card(
                 title: "Personal Site",
                 description: "The page you are viewing now is built with Vapor and Bulma",
                 imagePath: nil,
-                icon: "fa-solid fa-droplet"
+                icon: "fa-solid fa-droplet",
+                linkRoute: "personal-site"
                 
             ),
             Card(
                 title: "HCA Healthcare's UXCoE",
                 description: "The User Experience Center of Excellence wanted a custom page not hosted on a rigid CMS.",
                 imagePath: nil,
-                icon: "fa-brands fa-react"
+                icon: "fa-brands fa-react",
+                linkRoute: "uxcoe"
                 
             ),
             Card(
                 title: "Seat Geek",
                 description: "This started off as a code challenge but I am proud of the results.",
                 imagePath: "/images/portfolio/FetchNow.jpg",
-                icon: "fa-brands fa-swift"
+                icon: "fa-brands fa-swift",
+                linkRoute: "seat-geek"
             )
         ]
 

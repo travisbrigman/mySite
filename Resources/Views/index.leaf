@@ -18,6 +18,7 @@
                         #export("cardDescription", card.description)
                         #export("imagePath", card.imagePath)
                         #export("icon", card.icon)
+                        #export("linkRoute", card.linkRoute)
                      #endextend
                      </div>
                   #endfor

@@ -1,4 +1,5 @@
 <div class="card is-flex is-flex-direction-column is-flex-grow-1">
+<a href="/detail/#import("linkRoute")">
   <div class="card-image">
     <figure class="image is-4by3">
     #if("imagePath" != nil):
@@ -25,4 +26,5 @@
       #import("cardDescription")
     </div>
   </div>
+</a>
 </div>
