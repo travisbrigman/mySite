@@ -5,6 +5,7 @@ import Vapor
 struct MainController: RouteCollection {
     func boot(routes: RoutesBuilder) throws {
         routes.get(use: projects)
+        routes.get("detail", ":name", use: projectDetail)
     }
 
     func projects(req: Request) async throws -> View {
@@ -47,9 +48,8 @@ struct MainController: RouteCollection {
     }
     
     func projectDetail(req: Request) async throws -> View {
-        
-        
+        let name = req.parameters.get("name")!
+        let context = DetailContext(name: name)
         return try await req.view.render("project-detail", context)
     }
 }
-
