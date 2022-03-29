@@ -54,7 +54,9 @@ struct MainController: RouteCollection {
     func projectDetail(req: Request) async throws -> View {
         
         let projectDetails = [
-            DetailContext(name: "seat-geek", title: "Seat Geek", description: "This is a code challenge I did for a company called FetchNow. It consumes a list of events from the SeatGeek API and displays them in a list. A user can tap a list item and see a detail view of that item. The user can like the event in the detail view and see liked events back in the table view. The likes persist even if the app is closed.", imageURL: "Public/images/portfolio/tandemQuiz.jpg")
+            DetailContext(name: "seat-geek", title: "Seat Geek", description: "This is a code challenge I did for a company called FetchNow. It consumes a list of events from the SeatGeek API and displays them in a list. A user can tap a list item and see a detail view of that item. The user can like the event in the detail view and see liked events back in the table view. The likes persist even if the app is closed.", imageURL: "/images/portfolio/tandemQuiz.jpg"),
+            DetailContext(name: "rare", title: "Rare", description: "Rare started off as class project in the bootcamp I attended. I rebuilt the backend in the Vapor framework. A framework for building server-side Swift apps. The front-end is built in React and styled by me in Grommet UI framework.", imageURL: "/images/portfolio/rare.jpg")
+
         ]
         let name = req.parameters.get("name")!
         let index = projectDetails.firstIndex(where: {$0.name == name}) ?? 0
