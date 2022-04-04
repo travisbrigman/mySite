@@ -55,7 +55,10 @@ struct MainController: RouteCollection {
         
         let projectDetails = [
             DetailContext(name: "seat-geek", title: "Seat Geek", description: "This is a code challenge I did for a company called FetchNow. It consumes a list of events from the SeatGeek API and displays them in a list. A user can tap a list item and see a detail view of that item. The user can like the event in the detail view and see liked events back in the table view. The likes persist even if the app is closed.", imageURL: "/images/portfolio/tandemQuiz.jpg"),
-            DetailContext(name: "rare", title: "Rare", description: "Rare started off as class project in the bootcamp I attended. I rebuilt the backend in the Vapor framework. A framework for building server-side Swift apps. The front-end is built in React and styled by me in Grommet UI framework.", imageURL: "/images/portfolio/rare.jpg")
+            DetailContext(name: "rare", title: "Rare", description: "Rare started off as class project in the bootcamp I attended. I rebuilt the backend in the Vapor framework. A framework for building server-side Swift apps. The front-end is built in React and styled by me in Grommet UI framework.", imageURL: "/images/portfolio/rare.jpg"),
+            DetailContext(name: "personal-site", title: "My Personal Site", description: "The site you are on now is built with the Swift server side framework Vapor. Each page is a template being rendered as a URL route is called. Even though Vapor is a server side framework, the minimal amount of content being presented is being store with the framework code. Styling is done with the Bulma CSS framework. The reasons behind using Bulma are mostly because it looks great out of the box and I wanted to try something new and different", imageURL: "/images/portfolio/rare.jpg"),
+            DetailContext(name: "uxcoe", title: "HCA Healthcare's User Experience Center of Excellence", description: "This was a project I worked on for the first department I worked in at HCA healthcare. Like any big enterprise, HCA uses a CMS that allows each department to build a site. It's not that great at creating beautiful, well designed sites. They asked me to build a frontend using React and the in house design system Neutron.", imageURL: "/images/portfolio/rare.jpg")
+
 
         ]
         let name = req.parameters.get("name")!
