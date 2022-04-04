@@ -1,0 +1,15 @@
+#extend("base"):
+   #export("content"):
+        <div class="py-4 content container">
+            <h1 class="">#(title)</h1>
+            <section class="columns is-flex is-justify-content-space-around is-align-items-center">
+                <div class="column is-three-fifths">
+                    <p>#(description)</p>
+                </div>
+                <figure class="image is-640x360">
+                    <img class="" src="#(imageURL)">
+                </figure>
+            </section>
+        </div>
+   #endexport
+#endextend
