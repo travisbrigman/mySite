@@ -4,19 +4,26 @@
 // @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
 // Set your brand colors
-$green: #4c956c;
-$blue: #1e91d6;
-$brown: #757763;
-$platinum: #e5e5e5;
-$black-coffee: #32292f;
+$green: #005f73;
+$green-2: #0a9396;
+$green-3: #94d2bd;
+$tan: #e9d8a6;
+$orange: #ee9b00;
+$orange-2: #ca6702;
+$orange-2: #bb3e03;
+$red: #ae2012;
+$red-2: #9b2226;
+$black: #001219;
 
 // Update Bulma's global variables
 // $family-sans-serif: "Nunito", sans-serif;
 $family-sans-serif: "Oxygen", sans-serif;
-$grey-dark: $black-coffee;
-$grey-light: $platinum;
+$background: $tan;
+$text: $black;
+$grey-dark: $black;
+$grey-light: $tan;
 $primary: $green;
-$link: $blue;
+$link: $red-2;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
