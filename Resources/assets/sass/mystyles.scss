@@ -7,7 +7,7 @@
 $green: #005f73;
 $green-2: #0a9396;
 $green-3: #94d2bd;
-$tan: #e9d8a6;
+$tan: rgba(233, 216, 166, 0.316);
 $orange: #ee9b00;
 $orange-2: #ca6702;
 $orange-2: #bb3e03;
@@ -22,13 +22,13 @@ $background: $tan;
 $text: $black;
 $grey-dark: $black;
 $grey-light: $tan;
-$primary: $green;
+$primary: $green-2;
 $link: $red-2;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: #ffffff;
+$body-background-color: $tan;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
