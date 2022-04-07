@@ -2,33 +2,33 @@
 
 // Import a Google Font
 // @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
-@import url("https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 // Set your brand colors
-$green: #005f73;
-$green-2: #0a9396;
-$green-3: #94d2bd;
-$tan: rgba(233, 216, 166, 0.316);
-$orange: #ee9b00;
-$orange-2: #ca6702;
-$orange-2: #bb3e03;
-$red: #ae2012;
-$red-2: #9b2226;
-$black: #001219;
+$white-gray: #f8f9fa;
+$light-gray: #e9ecef;
+$gray: #dee2e6;
+$gray-2: #ced4da;
+$primary-gray: #adb5bd;
+$dark-gray: #6c757d;
+$dark-gray2: #495057;
+$light-black: #343a40;
+$black: #212529;
 
 // Update Bulma's global variables
 // $family-sans-serif: "Nunito", sans-serif;
-$family-sans-serif: "Oxygen", sans-serif;
-$background: $tan;
+$family-sans-serif: "Poppins", sans-serif;
+$scheme-main: $light-gray;
+$background: $white-gray;
 $text: $black;
-$grey-dark: $black;
-$grey-light: $tan;
-$primary: $green-2;
-$link: $red-2;
+$grey-dark: $light-black;
+$grey-light: $white-gray;
+$primary: $primary-gray;
+$link: $dark-gray2;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $tan;
+$body-background-color: $white-gray;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
