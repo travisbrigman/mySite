@@ -19,6 +19,8 @@
                         #export("imagePath", card.imagePath)
                         #export("icon", card.icon)
                         #export("linkRoute", card.linkRoute)
+                        #export("livelink", card.liveSite)
+                        #export("gitHub", card.gitHubRepo)
                      #endextend
                      </div>
                   #endfor
