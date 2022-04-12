@@ -2,10 +2,19 @@
    #export("content"):
         <div class="py-4 content container">
             <h1 class="">#(title)</h1>
-            <section class="columns is-flex is-justify-content-space-around is-align-items-center">
-                <div class="column is-three-fifths">
-                    <p>#(description)</p>
-                </div>
+               <section class="columns is-flex is-justify-content-space-around is-align-items-center">
+                  <div class="column is-three-fifths is-flex">
+                     <div class="is-flex is-flex-direction-column">
+                     <p>#(description)</p>
+                     <span class="icon-text">
+                        <span class="icon is-large">
+                           <i class="fa-brands fa-2x fa-github"></i>
+                        </span>
+                     <a href="#(gitHubRepo)">GitHub Repository</a>
+                     </span>
+                     </div>
+                
+                  </div>
                 <figure class="image is-640x360">
                     <img class="" src="#(imageURL)">
                 </figure>

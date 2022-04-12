@@ -3,4 +3,6 @@ struct DetailContext: Encodable {
     let title: String
     let description: String
     let imageURL: String
+    let liveSite: String?
+    let gitHubRepo: String?
 }

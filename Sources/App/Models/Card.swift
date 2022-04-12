@@ -8,6 +8,4 @@ struct Card: Encodable {
     let imagePath: String?
     let icon: String?
     let linkRoute: String?
-    let liveSite: String?
-    let gitHubRepo: String?
 }
