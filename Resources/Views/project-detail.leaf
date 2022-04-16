@@ -26,9 +26,9 @@
                            #endif
                      </div>
                   </div>
-                  <figure class="image is-640x360">
-                     <img class="" src="#(imageURL)">
-                  </figure>
+                     <figure class="image is-640x360">
+                        <img src="#(imageURL)">
+                     </figure>
             </section>
         </div>
    #endexport
