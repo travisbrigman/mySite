@@ -1,12 +1,16 @@
 @charset "utf-8";
-
+.hero-bg {
+  // Free SVG Background by <a target="_blank" href="https://bgjar.com">BGJar</a>
+  background: cover;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='430' preserveAspectRatio='none' viewBox='0 0 1440 430'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1473%26quot%3b)' fill='none'%3e%3crect width='1440' height='430' x='0' y='0' fill='url(%23SvgjsLinearGradient1474)'%3e%3c/rect%3e%3cpath d='M710 159L709 421' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1311 284L1310 556' stroke-width='6' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M477 305L476 493' stroke-width='6' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M797 343L796 221' stroke-width='10' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1138 116L1137 253' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1136 228L1135 435' stroke-width='6' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M593 261L592 138' stroke-width='6' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M151 8L150 -178' stroke-width='6' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M445 333L444 646' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M528 101L527 366' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1334 312L1333 180' stroke-width='8' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M719 263L718 -52' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1257 425L1256 268' stroke-width='8' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M966 153L965 -87' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M318 38L317 -282' stroke-width='8' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1307 14L1306 -286' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1332 417L1331 290' stroke-width='6' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M313 26L312 -99' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M866 63L865 361' stroke-width='10' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M337 233L336 58' stroke-width='6' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1129 151L1128 360' stroke-width='6' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M604 172L603 384' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M512 75L511 -117' stroke-width='10' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M597 258L596 457' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1235 276L1234 448' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M175 174L174 457' stroke-width='6' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M761 48L760 257' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1375 323L1374 629' stroke-width='8' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M861 373L860 526' stroke-width='10' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M739 309L738 108' stroke-width='6' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M129 416L128 675' stroke-width='8' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M771 2L770 118' stroke-width='8' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M1282 79L1281 -193' stroke-width='10' stroke='url(%23SvgjsLinearGradient1476)' stroke-linecap='round' class='Down'%3e%3c/path%3e%3cpath d='M479 215L478 373' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M315 128L314 435' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3cpath d='M1263 210L1262 3' stroke-width='10' stroke='url(%23SvgjsLinearGradient1475)' stroke-linecap='round' class='Up'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1473'%3e%3crect width='1440' height='430' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='82.47%25' y1='-58.72%25' x2='17.53%25' y2='158.72%25' gradientUnits='userSpaceOnUse' id='SvgjsLinearGradient1474'%3e%3cstop stop-color='rgba(52%2c 58%2c 64%2c 1)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(173%2c 181%2c 189%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1475'%3e%3cstop stop-color='rgba(73%2c 80%2c 87%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(73%2c 80%2c 87%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='0%25' y1='0%25' x2='0%25' y2='100%25' id='SvgjsLinearGradient1476'%3e%3cstop stop-color='rgba(73%2c 80%2c 87%2c 0)' offset='0'%3e%3c/stop%3e%3cstop stop-color='rgba(73%2c 80%2c 87%2c 1)' offset='1'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
 // Import a Google Font
 // @import url("https://fonts.googleapis.com/css?family=Nunito:400,700");
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 // Set your brand colors
 $pure-white: #ffffff;
-$white-gray: #e1efff;
-$light-gray: #e9ecef;
+$white-gray: #f7f6f4;
+$rust: rgba(64, 29, 8, 0.1);
 $gray: #dee2e6;
 $gray-2: #ced4da;
 $primary-gray: #adb5bd;
@@ -19,7 +23,7 @@ $black: #212529;
 // $family-sans-serif: "Nunito", sans-serif;
 $family-sans-serif: "Poppins", sans-serif;
 $scheme-main: $pure-white;
-$background: $pure-white;
+$background: $rust;
 $text: $black;
 $grey-dark: $light-black;
 $grey-light: $white-gray;
@@ -29,7 +33,7 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $white-gray;
+$body-background-color: $rust;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;

@@ -1,4 +1,4 @@
-<section class="hero is-primary is-medium">
+<section class="hero-bg hero is-primary is-medium">
   <!-- Hero head: will stick at the top -->
   <div class="hero-head">
   <div class="is-flex is-flex-direction-row is-justify-content-space-between">
