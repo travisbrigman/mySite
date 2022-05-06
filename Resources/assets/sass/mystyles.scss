@@ -49,7 +49,7 @@ $title: $black;
 .hero.is-primary .navbar-link:hover,
 .hero.is-primary .navbar-link.is-active {
   background-color: #a3a5a8;
-  color: #fff;
+  color: #F7F6F4;
 }
 .hero.is-primary .title {
   color: $white;
@@ -57,4 +57,7 @@ $title: $black;
 
 .card {
   background: $gray-2;
+}
+.image-fit {
+  object-fit: none;
 }

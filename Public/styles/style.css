@@ -7174,10 +7174,13 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 .hero.is-primary .navbar-link:hover,
 .hero.is-primary .navbar-link.is-active {
   background-color: #a3a5a8;
-  color: #fff; }
+  color: #F7F6F4; }
 
 .hero.is-primary .title {
   color: #f7f6f4; }
 
 .card {
   background: #ececec; }
+
+.image-fit {
+  object-fit: none; }
