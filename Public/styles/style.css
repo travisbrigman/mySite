@@ -7183,4 +7183,4 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
   background: #ececec; }
 
 .image-fit {
-  object-fit: none; }
+  transform: scale(1.25); }
