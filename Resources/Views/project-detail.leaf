@@ -9,7 +9,7 @@
                         #if(gitHubRepo != nil):
                         <span class="icon-text is-flex is-align-items-center">
                            <span class="icon is-large">
-                              <i class="fa-brands fa-2x fa-github"></i>
+                              <i class="fa-brands fa-2x fa-github icon-color"></i>
                            </span>
                            <a href="#(gitHubRepo)" target="_blank" rel="noopener noreferrer">GitHub Repository</a>
                            </span>
@@ -17,7 +17,7 @@
                            #if(liveSite != nil):
                         <span class="icon-text is-flex is-align-items-center">
                            <span class="icon is-large">
-                              <i class="fa-solid fa-2x fa-globe"></i>
+                              <i class="fa-solid fa-2x fa-globe icon-color"></i>
                            </span>
                            <a href="#(liveSite)" target="_blank" rel="noopener noreferrer">Live Site</a>
                            </span>

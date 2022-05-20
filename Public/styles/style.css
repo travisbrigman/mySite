@@ -7184,3 +7184,6 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 .image-fit {
   transform: scale(1.25); }
+
+.icon-color {
+  color: #343a40; }
