@@ -1,7 +1,8 @@
-<footer class="footer">
+<footer class="footer is-flex is-justify-content-space-around">
   <div class="content has-text-centered">
     <p>
       ©2022 by Travis Brigman.
     </p>
   </div>
+    <a href="https://travisbrigman.bio.link" target="_blank">connect with me</a>
 </footer>
