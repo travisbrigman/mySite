@@ -1,5 +1,3 @@
-
-import Fluent
 import Vapor
 
 struct Card: Encodable {
