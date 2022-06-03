@@ -1,0 +1,13 @@
+steps:
+  - name: "gcr.io/cloud-builders/gcloud"
+    args:
+      - "run"
+      - "deploy"
+      - "cloudrunservice"
+      - "--image"
+      - "us-west2-docker.pkg.dev/mysite-351817/mysite-docker-repo/mysite-image:tag1"
+      - "--region"
+      - "us-west2"
+      - "--platform"
+      - "managed"
+      - "--allow-unauthenticated"
